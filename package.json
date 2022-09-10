@@ -4,9 +4,12 @@
   "description": "Projeto do curso avançado de Cypress da Escola TAT",
   "main": "index.js",
   "scripts": {
+    "Comentario": "este lint e lint fix, servem para verificar a identação, espaços na escrita dos códigos e consertá-los",
+    
     "lint": "npx standard",
     "lint:fix": "npx standard --fix",
     "test": "cypress run",
+    "test-nyan": "cypress run --reporter nyan",
     "cy:open": "cypress open"
   },
   "standard": {
